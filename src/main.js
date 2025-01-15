@@ -19,10 +19,10 @@ const keycloak = new Keycloak({ store: memoryStore }, {
   "auth-server-url": "http://localhost:8080",
   "ssl-required": "none",
   "resource": "demoapp",
-  "public-client": false,
-  "credentials": {
-    "secret": "cLcBfql12gfToDuUvddXQeNO9tSYucX4A"   //Client Secret del Cliente (demoapp)
-  }
+//   "public-client": false,
+//   "credentials": {
+//     "secret": "cLcBfql12gfToDuUvddXQeNO9tSYucX4A"   //Client Secret del Cliente (demoapp)
+//   }
 });
 
 // Rutas protegidas y públicas
