@@ -33,9 +33,14 @@ app.get('/', (req, res) => {
   res.send('Servidor Express funcionando 🚀');
 });
 
-// Ruta protegida
+// Ruta protegida para cualquier usuario
 app.get('/protegido' , keycloak.protect(), (req, res) => {
   res.send('Estás autenticado ✅');
+});
+
+// Ruta protegida para usuarios con el rol "admin"
+app.get('/admin' , keycloak.protect('admin'), (req, res) => {
+    res.send('Estás autenticado como un administrador 🛠️​');
 });
 
 // Iniciar servidor
