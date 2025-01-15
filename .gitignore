@@ -1,0 +1,65 @@
+# Sistema operativo
+.DS_Store              # macOS
+Thumbs.db              # Windows
+
+# Archivos de logs
+*.log
+
+# Dependencias de Node.js
+node_modules/
+
+# Directorios de compilación
+dist/
+build/
+
+# Archivos generados por IDEs y editores de texto
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos de configuración de herramientas de contenedores
+docker-compose.override.yml
+*.env
+
+# Archivos de caché de NPM
+npm-debug.log
+yarn-error.log
+
+# Archivos de configuraciones locales
+.env.local
+.env.*.local
+
+# Archivos de bases de datos locales
+*.sqlite
+*.db
+
+# Archivos de configuración de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de compilación de Go
+bin/
+*.exe
+
+# Archivos de compilación de JavaScript
+*.js.map
+*.ts.map
+
+# Archivos temporales de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos de compilación de Ruby
+*.gem
+*.rbc
+*.sass-cache/
